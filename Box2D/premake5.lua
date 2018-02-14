@@ -23,7 +23,7 @@ workspace "Box2D"
 		buildoptions { "-std=c++11" }
 
 project "Box2D"
-	kind "StaticLib"
+	kind "SharedLib"
 	language "C++"
 	files { "Box2D/**.h", "Box2D/**.cpp" }
 	includedirs { "." }

@@ -19,5 +19,10 @@ Here are the steps for Xcode:
 - Set the Testbed directory as the working directory
 - Press Command-R to build and run the Testbed
 
+Here are the steps for gmake
+./premake5 gmake
+cd Build/gmake
+make config=release
+
 Thanks,
 Erin
